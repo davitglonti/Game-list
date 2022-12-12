@@ -1,0 +1,61 @@
+.backdrop_img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.poster_path{
+    margin-left:40px;
+    width: 250px;
+    position: relative;
+    bottom:250px;
+}
+.backdrop_info{
+    text-align: center;
+  color: white;
+    position: absolute;
+   left: 20%;
+   top:30%;
+}
+.Production{
+  background-color:grey
+}
+.genres{
+   border: 2px solid green;
+     width:'auto';
+ position: relative;
+ bottom:200px;
+ width: 200px;
+ margin-left:70px ;
+}
+.overview{
+  width: 80%;
+  display: flex;
+  text-align: center;
+ position: relative;
+ 
+ 
+ font-size: 20px;
+}
+.similarlist{
+ background-color: rgb(218, 164, 164); 
+ display: grid;
+ grid-template-columns: auto auto auto;
+ margin: 100px;
+}
+.gasacdel{
+  width: 100%;
+  height: 500px;
+}
+.ratedmovies{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+}
+
+@media (max-width: 700px) {
+  .backdrop_info{
+    position: absolute;
+    top: 30px;
+  }
+  
+ 
+}
